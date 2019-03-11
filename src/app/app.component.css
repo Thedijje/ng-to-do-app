@@ -16,4 +16,12 @@ form{
        background:#efefef;
        padding:10px;
        border-left:5px orange solid;
+
+       
+   }
+
+   .todolist li i{
+    float: right;
+    color: #888;
+    cursor: pointer;
    }
