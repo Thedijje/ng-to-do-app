@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'learning-angular-portfolio';
+  title = 'To do list';
+  todoArray=[];
+
+  addTodo(value){
+    this.todoArray.push(value)
+    console.log(value);
+    this.todoArray.values=''
+    
+  }
+
+
 }

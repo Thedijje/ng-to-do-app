@@ -1,0 +1,19 @@
+/*Google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+h2{
+    color:rgb(209, 43, 43)
+
+}
+
+form{
+    max-width: 25em;
+    margin: 1em auto;
+   }
+
+   .todolist li{
+       background:#efefef;
+       padding:10px;
+       border-left:5px orange solid;
+   }
