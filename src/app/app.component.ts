@@ -1,10 +1,31 @@
 import { Component } from '@angular/core';
+import { NgModule }      from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  
 })
+
+@NgModule({
+  imports: [
+    
+    FormsModule                               // <========== Add this line!
+                            // <========== Add this line!
+  ],
+  declarations: [
+    
+    // other components of yours
+  ],
+  bootstrap: [ AppComponent ]
+})
+
+
+
+
 export class AppComponent {
   title = 'To do list';
   todoArray=[];
@@ -32,6 +53,10 @@ export class AppComponent {
      }
 
 
+   }
+
+   todoSubmit(value:any){
+     console.log(value);
    }
 
 
