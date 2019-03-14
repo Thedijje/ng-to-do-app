@@ -54,9 +54,9 @@ export class AppComponent {
 
 
    }
-
-   todoSubmit(value:any){
-     console.log(value);
+   public toDo = "";
+   todoSubmit(){
+     this.toDo;
    }
 
 
